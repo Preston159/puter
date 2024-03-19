@@ -1,6 +1,6 @@
 {
-    "name": "Puter",
-    "short_name": "Puter",
+    "name": "Puter dev",
+    "short_name": "Puter dev",
     "display": "standalone",
     "start_url": "/",
     "icons": [

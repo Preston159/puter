@@ -37,7 +37,8 @@ build();
 app.get(["/", "/app/*", "/action/*"], (req, res) => {
     res.send(generateDevHtml({
         env: env,
-        api_origin: "https://api.puter.com",
+        gui_origin: "http://localhost:5259",
+        api_origin: "http://localhost:5259",
         title: "Puter",
         max_item_name_length: 150,
         require_email_verification_to_publish_website: false,
